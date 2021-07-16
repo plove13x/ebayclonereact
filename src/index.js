@@ -3,6 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import Web3 from 'web3';
+// import detectEthereumProvider from '@metamask/detect-provider';
+
+console.log('ok');
+
+// const getAccount = async () => {
+//     const web3 = new Web3(window.ethereum);
+//     const accounts = await web3.eth.getAccounts();
+//     console.log(accounts[0]);
+// };
+
+// getAccount();
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,7 +23,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
